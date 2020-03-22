@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: #194a6f;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -14,6 +14,7 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --btn: #af9a7d;
 }
 /* globals */
 body {
@@ -57,7 +58,7 @@ h6 {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
-  color: var(--mainBlack);
+  color: var(--offWhite);
   background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
@@ -172,8 +173,8 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
+  background: rgba(255, 255, 255, 0.473);
+  color: var(--primaryColor);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
@@ -233,7 +234,7 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: var(--White);
   text-align: center;
 }
 .services-center {
